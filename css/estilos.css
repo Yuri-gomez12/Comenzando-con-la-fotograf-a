@@ -1,0 +1,523 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.contenido{
+  width: 85%;
+  margin: auto;
+}
+body{
+  background: #02010a;
+  margin: 0 90px 0 90px;
+}
+
+/*inicio encabezado*/
+header{
+  background: #5b7989;
+  width: 100%;
+  height: 70px;
+  border-radius: 10px 10px 0 0;
+}
+.contenedor{
+  width: 100%;
+  height: 70px;
+  margin: auto;
+}
+.logo{
+  float: left;
+  padding-top: 20px;
+  margin-left: 15px;
+}
+.logo p a{
+color: #fff;
+font-size: 30px;
+text-decoration: none;
+text-shadow: 2px 2px #02010a;
+font-family: 'Dancing Script', cursive;
+line-height: normal;
+}
+
+nav{
+  width: 46%;
+  height: 70px;
+  float: right;
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 10px;
+}
+nav a{
+  color: #fff;
+  font-size: 23px;
+  padding: 10px 10px;
+  display: inline block;
+  font-family: 'Dancing Script', cursive;
+  line-height: normal;
+}
+/*inicio estilo Index*/
+.contenedor1{
+  background: #82c3a6;
+}
+.content-contenedor1{
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+.imagenes1 img{
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  display: block;
+  margin-top: 10px;
+  box-shadow: 2px 2px #82c3a6;
+}
+.contenedor2{
+  background: #d5c75f;
+}
+.content-contenedor2{
+  display: flex;
+  width: 95%;
+  margin: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 25px;
+}
+.content-contenedor2 .imagenes2{
+   width: 45%;
+   position: relative;
+   height: 300px;
+   padding-bottom: 40px;
+   padding-top: 10px;
+}
+.content-contenedor2 .imagenes3{
+   width: 45%;
+   position: relative;
+   height: 300px;
+   padding-bottom: 40px;
+   padding-top: 10px;
+}
+.imagenes2 img{
+  width: 95%;
+  height: 100%;
+  box-shadow: 2px 2px #02010a;
+  object-fit: cover;
+  margin-left: 20px;
+  transition: 1s;
+}
+.imagenes2 img:hover{
+  transform: rotate(10deg);
+}
+.imagenes3 img{
+  width: 95%;
+  height: 100%;
+  box-shadow: 2px 2px #02010a;
+  object-fit: cover;
+  margin-left: 20px;
+  transition: 1s;
+}
+.imagenes3 img:hover{
+  transform: translate(20px,5px);
+}
+.imagenes2 h4 a{
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.imagenes3 h4 a{
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+h4{
+  text-align: center;
+}
+a{
+  color: #02010a;
+}
+
+/*inicio pie de página*/
+footer{
+  background: #C6d5c5;
+  width: 100%;
+  height: 70%;
+  border-radius:0 0 10px 10px;
+  margin-bottom: 20px;
+}
+.content-footer{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  padding: 20px;
+}
+.columna1{
+  width: 25%;
+  padding-left: 10px;
+}
+.columna1 h3{
+  font-size: 25px;
+}
+.columna1 p{
+  font-size: 20px;
+  margin-top: 5px;
+}
+.columna2{
+  width: 25%;
+}
+.columna2 h3{
+  font-size: 25px;
+}
+.columna2 p{
+  font-size: 20px;
+  margin-top: 5px;
+  max-width: 200px;
+}
+.columna3{
+  width: 25%;
+}
+.columna3 h3{
+  font-size: 25px;
+}
+.columna3 p{
+  font-size: 20px;
+  margin-top: 5px;
+}
+.columna4{
+  width: 25%;
+}
+.columna4 h3{
+  font-size: 25px;
+}
+.columna4 p{
+  font-size: 20px;
+  margin-top: 5px;
+}
+.redes{
+  display: flex;
+  margin-top: 5px;
+}
+.redes img{
+  width: 25px;
+  height: 25px;
+}
+.redes p{
+  margin-top: 5px;
+}
+.redes a{
+  margin-left: 5px;
+  color: #02010a;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/*inicio estilo Paisajes y Retratos*/
+.galeria{
+  background: #d5c75f;
+}
+.content-imagenes{
+  display: flex;
+  width: 95%;
+  margin: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.content-imagenes .imagen1{
+  width: 32%;
+  position: relative;
+  height: 250px;
+}
+.content-imagenes .imagen2{
+  width: 32%;
+  position: relative;
+  height: 250px;
+}
+.content-imagenes .imagen3{
+  width: 32%;
+  position: relative;
+  height: 250px;
+}
+.content-imagenes .imagen4{
+  width: 32%;
+  position: relative;
+  height: 250px;
+}
+.content-imagenes .imagen5{
+  width: 32%;
+  position: relative;
+  height: 250px;
+}
+.content-imagenes .imagen6{
+  width: 32%;
+  position: relative;
+  height: 250px;
+}
+.imagen1 img{
+  width: 85%;
+  height: 80%;
+  box-shadow: 2px 2px #02010a;
+  object-fit: cover;
+  margin-left: 10px;
+}
+.imagen2 img{
+  width: 85%;
+  height: 80%;
+  box-shadow: 2px 2px #02010a;
+  object-fit: cover;
+  margin-left: 10px;
+}
+.imagen3 img{
+  width: 85%;
+  height: 80%;
+  box-shadow: 2px 2px #02010a;
+  object-fit: cover;
+  margin-left: 10px;
+}
+.imagen4 img{
+  width: 85%;
+  height: 80%;
+  box-shadow: 2px 2px #02010a;
+  object-fit: cover;
+  margin-left: 10px;
+}
+.imagen5 img{
+  width: 85%;
+  height: 80%;
+  box-shadow: 2px 2px #02010a;
+  object-fit: cover;
+  margin-left: 10px;
+}
+.imagen6 img{
+  width: 85%;
+  height: 80%;
+  box-shadow: 2px 2px #02010a;
+  object-fit: cover;
+  margin-left: 10px;
+}
+
+/*filtros de los Paisajes y Retratos*/
+.imagen1{
+  ~webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+.imagen2{
+  ~webkit-filter: grayscale(100px);
+  filter: grayscale(100%);
+}
+.imagen3{
+  ~webkit-filter: sepia(90px);
+  filter: sepia(90%);
+}
+.imagen4{
+  ~webkit-filter: grayscale(100px);
+  filter: grayscale(100%);
+}
+.imagen6{
+  ~webkit-filter: grayscale(100px);
+  filter: grayscale(100%);
+}
+
+
+header{
+    animation: mianimacion 3s;
+}
+@keyframes mianimacion{
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+    transform: scale(1.2);
+}
+}
+
+/* Media queries  */
+@media (min-width:900px){
+  .contenido{
+    width: 95%;
+    }
+    .content-imagenes{
+     width: 90%;
+    }
+    footer{
+      width: 100%;
+    }
+    .content-footer{
+      width: 88%;
+
+    }
+}
+
+@media (max-width:900px){
+  .contenido{
+    width: 100%;
+    margin: auto;
+  }
+  body{
+    width: 98%;
+    margin: auto;
+    margin-left: 4px;
+  }
+  header{
+    height: 120px;
+  }
+  .logo{
+    font-size: 25px;
+    margin-top: .10px;
+  }
+  .logo p a{
+    text-align: center;
+    margin-left: 150px;
+  }
+  nav{
+    font-size: 20px;
+    margin-top: -5px;
+    margin-right: 240px;
+  }
+  .contenedor1{
+    width: 100%;
+  }
+  .content-contenedor1{
+    width: 100%;
+  }
+  .imagen1{
+    width: 85%;
+  }
+  .contenedor2{
+    width: 100%;
+  }
+  .content-contenedor2{
+    width: 100%;
+    display: block;
+    padding-bottom: 20px;
+  }
+  .content-contenedor2 .imagenes2{
+    width: 85%;
+    margin: auto;
+  }
+  .content-contenedor2 .imagenes3{
+    width: 85%;
+    margin: auto;
+  }
+  .imagenes2{
+    margin: auto;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .imagenes3{
+    margin: auto;
+    width: 100%;
+  }
+  h4{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+  }
+  .galeria{
+    width: 100%
+  }
+  .content-imagenes{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 25px;
+    padding-right: 0;
+
+  }
+  .content-imagenes .imagen1{
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+  .content-imagenes .imagen2{
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+  .content-imagenes .imagen3{
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+  .content-imagenes .imagen4{
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+  .content-imagenes .imagen5{
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+  .content-imagenes .imagen6{
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+  footer{
+    width: 100%;
+  }
+  .content-footer{
+    width: 90%;
+    padding-top: 30px;
+    display: block;
+  }
+  .columna1{
+    width: 50%;
+    padding-bottom: 40px;
+    padding-left: 5px;
+  }
+  .columna2{
+    width: 50%;
+    padding-bottom: 40px;
+  }
+  .columna3{
+    width: 50%;
+    padding-bottom: 40px;
+  }
+  .columna4{
+    width: 50%;
+    padding-bottom: 40px;
+  }
+  .columna5{
+    width: 50%;
+    padding-bottom: 40px;
+  }
+  .columna6{
+    width: 50%;
+    padding-bottom: 40px;
+  }
+}
+@media (max-width:700px){
+header{
+  height: 150px;
+}
+.logo{
+width: 100%;
+margin: auto;
+height: auto;
+}
+.logo p a{
+  margin-left: 40px;
+  font-size: 25px;
+}
+nav{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  padding-left: 80px;
+  display: flex;
+}
+nav a{
+  text-align: center;
+  line-height: 30px;
+
+}
+}
